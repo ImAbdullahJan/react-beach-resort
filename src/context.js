@@ -57,19 +57,6 @@ const RoomProvider = ({ children }) => {
       });
       return tempItems;
     };
-
-    // let rooms = formatData(items);
-    // let featuredRooms = rooms.filter(room => room.featured === true);
-    // let maxPrice = Math.max(...rooms.map(item => item.price));
-    // let maxSize = Math.max(...rooms.map(item => item.size));
-
-    // setRooms(rooms);
-    // setFeaturedRooms(featuredRooms);
-    // setSortedRooms(rooms);
-    // setLoading(false);
-    // setPrice(maxPrice);
-    // setMaxPrice(maxPrice);
-    // setMaxSize(maxSize);
   }, []);
 
   useEffect(() => {
